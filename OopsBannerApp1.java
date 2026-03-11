@@ -1,11 +1,13 @@
-class UC2_OOPS_Banner {
+public class OOPSBannerApp {
     public static void main(String[] args) {
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *      ");
-        System.out.println("*     * *     * * * * *  ***** ");
-        System.out.println("*     * *     * *             *");
-        System.out.println("*     * *     * *       *     *");
-        System.out.println(" *****   *****  *        ***** ");
+        // OOPS banner made of stars
+
+        System.out.println(String.join(" ", " ***", "     ", "**** ", " *****"));
+        System.out.println(String.join(" ", "**  *", "   *  *", "*   *"));
+        System.out.println(String.join(" ", "**  *", "   *  *", "*   *"));
+        System.out.println(String.join(" ", "**  *", "   *  *", "*****"));
+        System.out.println(String.join(" ", "**  *", "   *  *", "*   *"));
+        System.out.println(String.join(" ", "**  *", "   *  *", "*   *"));
+        System.out.println(String.join(" ", " ***", "     ", "**** ", "*   *"));
     }
 }
